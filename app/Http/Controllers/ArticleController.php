@@ -20,7 +20,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        //
+        return view('article.create');
     }
 
     /**
@@ -28,7 +28,9 @@ class ArticleController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'title'
+        ])
     }
 
     /**
