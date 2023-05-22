@@ -9,12 +9,14 @@
     <title>HealthyEarth</title>
 </head>
 <body>
-    <x-navabr />
+    <x-navbar />
 
     <x-header headerTitle="{{ $headerTitle }}"/>
 
     <div class="min-vh-100">
         {{$slot}}
     </div>
+
+    <x-footer/>
 </body>
 </html>
