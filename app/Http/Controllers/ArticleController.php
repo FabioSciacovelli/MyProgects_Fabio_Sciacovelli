@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 
 class ArticleController extends Controller
 {
+
     public function __construct() {
         $this->middleware('auth')->except('index', 'show');
     }
@@ -25,7 +26,7 @@ class ArticleController extends Controller
 
     public function byCategory(Category $category){
         $articles = $category->articles->sortByDesc('created_at');
-        return view('article.by-category', compact('category', 'articles'));
+        return view('article.byCategory', compact('category', 'articles'));
     }
 
     public function byUser(User $user){
@@ -97,4 +98,5 @@ class ArticleController extends Controller
     {
         //
     }
+
 }

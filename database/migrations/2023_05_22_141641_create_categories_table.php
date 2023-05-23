@@ -18,7 +18,7 @@ return new class extends Migration
             $table->timestamps();
         });
 
-        $categories = ['ecosostenibilità','energia','inquinamento_ambientale','eco_consigli','curiosità','risparmio_energetico','economia_circolare'];
+        $categories = ['ecosostenibilità','energia','inquinamento ambientale','eco consigli','curiosità','risparmio energetico','economia circolare'];
 
         foreach($categories as $category){
             Category::create([
