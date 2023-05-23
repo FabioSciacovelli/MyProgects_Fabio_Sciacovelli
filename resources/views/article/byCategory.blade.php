@@ -1,4 +1,4 @@
-<x-layout headerTitle="Categoria: {{$category->name}}">
+<x-layout headerTitle="{{$category->name}}">
    
     <div class="container my-5">
         <div class="row justify-content-around">

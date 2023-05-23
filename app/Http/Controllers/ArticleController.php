@@ -31,7 +31,7 @@ class ArticleController extends Controller
 
     public function byUser(User $user){
         $articles = $user->articles->sortByDesc('created_at');
-        return view('article.by-user', compact('user', 'articles'));
+        return view('article.byUser', compact('user', 'articles'));
     }
 
     /**
