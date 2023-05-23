@@ -1,4 +1,19 @@
-
 h1{
     font-family: 'Big Shoulders Inline Text', cursive;
+    color: white;
+    font-size: 100px;
+}
+
+.icona{
+    color: white;
+}
+
+.headergreen{
+    background-image: url('/public/media/sfondogreen_presto.png');
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+    }
 }

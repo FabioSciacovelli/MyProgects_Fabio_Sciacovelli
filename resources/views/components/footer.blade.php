@@ -32,8 +32,8 @@
           <div class="row d-flex justify-content-center">
             <!--Grid column-->
             <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
+              <p>
+                <strong>La newsletter</strong>
               </p>
             </div>
             <!--Grid column-->
@@ -43,7 +43,7 @@
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
                 <input type="email" id="form5Example2" class="form-control" />
-                <label class="form-label" for="form5Example2">Email address</label>
+                <label class="form-label" for="form5Example2">Indirizzo Email</label>
               </div>
             </div>
             <!--Grid column-->
@@ -53,7 +53,7 @@
   
               <!-- Submit button -->
               <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
+                Invia
               </button>
             </div>
             <!--Grid column-->
@@ -67,10 +67,7 @@
       <!-- Section: Text -->
       <section class="mb-4">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-          distinctio earum repellat quaerat voluptatibus placeat nam,
-          commodi optio pariatur est quia magnam eum harum corrupti dicta,
-          aliquam sequi voluptate quas.
+          Per ogni nuovo iscritto piantiamo un albero per bloccare le emissioni di Co2
         </p>
       </section>
       <!-- Section: Text -->
