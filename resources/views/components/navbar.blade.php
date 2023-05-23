@@ -10,7 +10,7 @@
             <a class="nav-link active" href="{{ route('article.create') }}">Inserisci un articolo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link active" href="{{ route('article.index') }}">Tutti gli articoli</a>
           </li>
           @auth
           <li class="nav-item dropdown">

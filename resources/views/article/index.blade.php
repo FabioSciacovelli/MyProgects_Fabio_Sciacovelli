@@ -1,13 +1,5 @@
-<x-layout headerTitle="HealthyEarth">
-    @if(session('message'))
-        <div class="alert alert-success text-center">
-            {{session('message')}}
-        </div>
-    @endif
-
-    <div class="d-flex justify-content-center m-3">
-        <a href="{{route('article.create')}}" type="submit" class="btn btn-success">Inserisci il tuo articolo</a>
-    </div>
+<x-layout headerTitle="Tutti gli articoli">
+   
 
     <div class="container my-5">
         <div class="row justify-content-around">
@@ -22,7 +14,7 @@
                     </div>
                     <div class="card-footer text-muted d-flex justify-content-between align-items-center">
                         Redatto il {{$article->created_at->format('d/m/Y')}} da {{$article->user->name}}
-                        <a href="#" class="btn btn-success text-white">Leggi</a>
+                        <a href="{{route('article.show', compact('article'))}}" class="btn btn-success text-white">Leggi</a>
                     </div>
                 </div>            
             </div>
@@ -31,6 +23,3 @@
     </div>
 </x-layout>
                 
-
-
-
