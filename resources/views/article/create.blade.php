@@ -51,12 +51,12 @@
 
                         <div class="mb-3">
                             <label for="body" class="form-label">Corpo del testo:</label>
-                            <textarea  name="body" class="30" rows="7" class="form-control" id="body"> {{old('body')}} </textarea>
+                            <textarea  name="body"  rows="10" cols="30" class="form-control" id="body"> {{old('body')}} </textarea>
                         </div>
 
                         <div class="mt-2">
-                            <button class="btn btn-info text-white">Inserisci un articolo</button>
-                            <a class="btn btn-outline-info" href="{{route('homepage')}}">Torna alla home</a>
+                            <button class="btn btn-success text-white m-3">Inserisci un articolo</button>
+                            <a class="btn btn-outline-success" href="{{route('homepage')}}">Torna alla home</a>
                         </div>
                         
                     </form>
