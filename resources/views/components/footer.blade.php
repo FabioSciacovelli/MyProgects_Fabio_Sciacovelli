@@ -78,7 +78,28 @@
         <!--Grid row-->
         <div class="row">
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="col-3 col-lg-3 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Link</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-3 col-lg-3  mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
   
             <ul class="list-unstyled mb-0">
@@ -99,7 +120,7 @@
           <!--Grid column-->
   
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="col-3 col-lg-3  mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
   
             <ul class="list-unstyled mb-0">
@@ -120,28 +141,7 @@
           <!--Grid column-->
   
           <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="col-3 col-lg-3  mb-4 mb-md-0">
             <h5 class="text-uppercase">Links</h5>
   
             <ul class="list-unstyled mb-0">
@@ -170,8 +170,8 @@
   
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      © 2023 Copyright:
+      <p class="text-white" href="https://mdbootstrap.com/">HealthyEarth Digitale S.r.l. Via Mondo Verde 4, 69780 World- P-IVA 590932</>
     </div>
     <!-- Copyright -->
   
