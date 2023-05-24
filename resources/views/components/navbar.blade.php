@@ -57,6 +57,7 @@
         </form>--}}
         
         <a class="nav-link active text-light me-5" href="{{ route('careers') }}">Lavora con noi</a>
+        <a class="nav-link active text-light me-5" href="{{ route('admin.dashboard') }}">Admin</a>
         
       </div>
     </div>
