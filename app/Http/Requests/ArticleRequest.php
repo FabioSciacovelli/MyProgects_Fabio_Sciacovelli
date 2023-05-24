@@ -30,21 +30,19 @@ class ArticleRequest extends FormRequest
         ];
     }
 
-    public function message():array{
+    public function messages():array{
+
         return[
-         
+            
             'title.required' => 'Devi inserire il titolo dell\' articolo',
             'title.min' => 'Il titolo deve avere minimo 5 caratteri',
-
             'subtitle.required' => 'Devi inserire un sottotitolo',
             'subtitle.min' => 'Il sottotitolo deve avere almeno 5 caratteri',
-
             'body.required' => 'Devi inserire il corpo dell\' articolo',
             'body.min' => 'IL corpo del testo deve avere almeno 10 caratteri',
-
             'image.required' => 'Devi inserire una immagine',
-            
             'category.required' => 'Devi inserire una categoria',
         ];
+        
     }
 }
