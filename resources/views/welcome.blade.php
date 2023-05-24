@@ -87,42 +87,42 @@
 
    
 
-    <div class="container my-5">
-      <div class="row mb-3">
-        <div class="col-12 col-md-4">
+    <div class="container mt-5 mb-4">
+      <div class="row">
+        <div class="col-12 col-md-4 mb-3 ">
           <div class="card">
             <img src="/media/palazzoverde.jpg" class="card-img-top" alt="...">
             <a href=""></a>
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card">
             <img src="/media/energia.jpg" class="card-img-top" alt="...">
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card">
             <img src="/media/inquinamento-ambientale.jpg" class="card-img-top" alt="...">
           </div>
         </div>
-      </div>
+      
 
-      <div class="row mb-5">
-        <div class="col-12 col-md-4">
+      
+        <div class="col-12 col-md-4 mb-3">
           <div class="card">
             <img src="/media/eco-consigli.jpg" class="card-img-top" alt="...">
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card">
             <img src="/media/economia-circolare.jpg" class="card-img-top" alt="...">
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card">
             <img src="/media/curiosita.jpg" class="card-img-top" alt="...">
           </div>

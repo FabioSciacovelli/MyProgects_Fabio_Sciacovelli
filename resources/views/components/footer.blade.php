@@ -79,7 +79,7 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-3 col-lg-3 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Link</h5>
+            <h5 class="text-uppercase">Links</h5>
   
             <ul class="list-unstyled mb-0">
               <li>
