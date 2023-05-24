@@ -12,7 +12,7 @@
                       <p class="card-text">{{$article->subtitle}}</p>
                       <p class="small text-muted fst-italic text-capitalize">
                         <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="small text-muted fst-italic text-capitalize">{{$article->category->name}}</a>
-                    </p>
+                      </p>
                     </div>
                     <div class="card-footer text-muted d-flex justify-content-center align-items-center">
                         Redatto il {{$article->created_at->format('d/m/Y')}} da  <a href="{{route('article.byUser', ['user' => $article->user->id])}}" class="small text-muted fst-italic text-capitalize m-2">{{$article->user->name}}</a>
