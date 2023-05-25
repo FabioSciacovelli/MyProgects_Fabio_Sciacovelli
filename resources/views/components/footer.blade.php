@@ -3,7 +3,7 @@
     <!-- Grid container -->
     <div class="container p-4">
   
-      <!-- Section: Social media -->
+      {{-- <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
         <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
@@ -23,9 +23,9 @@
         <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
+   --}}
   
-  
-      <!-- Section: Form -->
+      {{-- <!-- Section: Form -->
       <section class="">
         <form action="">
           <!--Grid row-->
@@ -35,10 +35,10 @@
               <p>
                 <strong>La newsletter</strong>
               </p>
-            </div>
+            </div> --}}
             <!--Grid column-->
   
-            <!--Grid column-->
+            {{-- <!--Grid column-->
             <div class="col-md-5 col-12">
               <!-- Email input -->
               <div class="form-outline form-white mb-4">
@@ -61,7 +61,7 @@
           <!--Grid row-->
         </form>
       </section>
-      <!-- Section: Form -->
+      <!-- Section: Form --> --}}
   
   
       <!-- Section: Text -->
