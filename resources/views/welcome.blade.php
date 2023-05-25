@@ -6,8 +6,8 @@
     @endif
 
   <div class="container">
-    <div class="row m-3">
-       <div class="col-12 justify-content-end">
+    <div class="row justify-content-center m-4">
+       <div class="col-12 text-center">
            <a href="{{route('article.create')}}" type="submit" class="btn btn-success">Inserisci il tuo articolo</a>
        </div>
     </div>
