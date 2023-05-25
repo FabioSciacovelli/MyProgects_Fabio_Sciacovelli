@@ -14,13 +14,13 @@
             <th scope="row">{{$article->id}}</th>
             <td>{{$article->title}}</td>
             <td>{{$article->subtitle}}</td>
-            <td>{{$article->name}}</td>
+            <td>{{$article->user->name}}</td>
             <td>
 
                 @if(is_null($article->is_accepted))
-                <a href="{{route('article.show', compact('article'))}}" class="bnt btn-success text-white">Leggi l'articolo</a>
+                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn btn-success">Leggi l'articolo</a>
                 @else
-                <a href="{{route('revisor.undoArticle', compact('article'))}}" class="bnt btn-success text-white">Riporta in revisione</a>
+                <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btn-success">Riporta in revisione</a>
                 @endif
               
             </td>

@@ -59,7 +59,11 @@
         <a class="nav-link active text-light me-5" href="{{ route('careers') }}">Lavora con noi</a>
 
         @if(Auth::user() && Auth::user()->is_admin)
-            <a class="nav-link active text-light me-5" href="{{ route('admin.dashboard') }}">Dasboard Admin</a>
+            <a class="nav-link active text-light me-5" href="{{ route('admin.dashboard') }}">Dasboard Amministratore</a>
+        @endif
+
+        @if(Auth::user() && Auth::user()->is_revisor)
+            <a class="nav-link active text-light me-5" href="{{ route('revisor.dashboard') }}">Dasboard Revisore</a>
         @endif
 
       </div>
