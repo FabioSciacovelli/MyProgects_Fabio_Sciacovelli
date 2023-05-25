@@ -28,4 +28,7 @@ Route::post('/careers/submit', [PublicController::class, 'careersSubmit'])->name
 
 Route::middleware('admin')->group(function(){
     Route::get('/admin/dashboard',[AdminController::class, 'dashboard'])->name('admin.dashboard');
+    Route::get('/admin/{user}/set-admin',[AdminController::class, 'setAdmin'])->name('admin.setAdmin');
+    Route::get('/admin/{user}/set-revisor',[AdminController::class, 'setAdmin'])->name('admin.setRevisor');
+    Route::get('/admin/{user}/set-writer',[AdminController::class, 'setAdmin'])->name('admin.setWriter');
 });
