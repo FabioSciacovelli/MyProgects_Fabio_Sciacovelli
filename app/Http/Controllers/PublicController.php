@@ -50,7 +50,7 @@ class PublicController extends Controller
             $user->is_writer = NULL;
             break;
     }
-    $user->update();
+        $user->update();
 
     return redirect(route('homepage'))->with('message', 'Grazie per averci contattato!');
 

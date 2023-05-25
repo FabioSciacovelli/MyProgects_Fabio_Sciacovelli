@@ -31,5 +31,13 @@
             </div>
         </div>               
     </div>
+    <div class="row justify-content-center mb-5">
+        <div class="col-12 text-center mt-5">
+            @if(Auth::user()&& Auth::user()->is_revisor)
+            <a href="{{route('revisor.acceptArticle', compact('article'))}}" class="btn btn-success text-white my-5">Accetta Articolo</a>
+            <a href="{{route('revisor.rejectArticle', compact('article'))}}" class="btn btn-danger text-white my-5">Rifiuta Articolo</a>
+            @endif
+        </div>
+    </div>
             
 </x-layout>
