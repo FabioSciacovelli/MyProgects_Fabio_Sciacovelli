@@ -58,8 +58,8 @@
         
         <a class="nav-link active text-light me-5" href="{{ route('careers') }}">Lavora con noi</a>
 
-        @if(Auth::user()->is_admin)
-             <li><a class="dropdown-item" href="{{ route('admin.dashboard') }}">Dasboard Admin</a></li>
+        @if(Auth::user() && Auth::user()->is_admin)
+            <a class="nav-link active text-light me-5" href="{{ route('admin.dashboard') }}">Dasboard Admin</a>
         @endif
 
       </div>
