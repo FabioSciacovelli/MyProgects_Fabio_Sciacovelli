@@ -1,4 +1,4 @@
-<x-layout headerTitlt="Bentornato,Amministratore">
+<x-layout headerTitle="Bentornato Amministratore">
 
     @if(session('message'))
         <div class="alert alert-success text-center">
