@@ -1,3 +1,18 @@
+:root{
+    --primary: #00E866;
+    --secondary: #007A37;
+    --accent: #007A35;
+    --whitecustom: #D8F2E1;
+    --blackcustom: #003B1A;
+}
+
+.active{
+    background-color: white!important;
+    color: green!important;
+    transform: scale(1)!important;
+    border-radius: 5%;
+}
+
 h1{
     font-family: 'Big Shoulders Inline Text', cursive;
     color: white;
