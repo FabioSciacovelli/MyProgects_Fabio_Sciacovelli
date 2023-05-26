@@ -1,12 +1,10 @@
 <x-layout>
    <div class="bgRegisterLogin">
-    <div class="container mt-5 ">
+    <div class="container mt-5">
         <div class="row justify-content-center align-items-center vh-100">
             <div class="col-12 col-md-8">
-                <div >
-                
-                </div>
-                <form class="bg-light p-5 border" action="{{route('register')}}" method="POST">
+
+                <form class="bg-light p-5 border rounded-1 opacity" action="{{route('register')}}" method="POST">
 
                     <h1 class="text-blackcustom text-center">
                         REGISTRATI

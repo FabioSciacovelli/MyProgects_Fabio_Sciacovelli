@@ -6,10 +6,8 @@
     --blackcustom: #003b1a;
 }
 .background-test{
-
     background: rgb(47,103,54);
     background: linear-gradient(103deg, rgba(47,103,54,1) 0%, rgba(23,35,33,1) 100%, rgba(42,106,72,1) 100%);
-
 }
     
 /* Classi colori background */
@@ -69,7 +67,19 @@ h1{
 }
 
 .headergreen{
-    background-image: url('/public/media/sfondogreen_presto.png');
+    background-image: url('/public/media/sfondoform33.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.opacity{
+    opacity: 0.85;
+}
+
+.bgRegisterLogin{
+    background-image: url('/public/media/sfondo22.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,11 +88,6 @@ h1{
     }
 }
 
-.bgRegisterLogin{
-    background-image: url('/public/media/sfondogreen_presto.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
+
 
 

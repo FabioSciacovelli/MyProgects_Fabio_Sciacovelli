@@ -6,10 +6,11 @@
 
     <div class="container my-5">
         <div class="row justify-content-around">
+
             @foreach($articles as $article)
             <div class="col-12 col-md-5 mt-4">
-                <div class="card">
-                    <img src="{{Storage::url($article->image)}}" class="card-img-top" alt="">
+                <div class="card rounded-0 border border-1">
+                    <img src="{{Storage::url($article->image)}}" class="card-img-top rounded-0" alt="">
                     <div class="card-body">
                       <h5 class="card-title">{{$article->title}}</h5>
                       <p class="card-text">{{$article->subtitle}}</p>
@@ -26,6 +27,19 @@
             @endforeach
             
         </div>
+
+        {{-- CARD DA PROVARE PER AVERE IL TESTO SULL' IMG.
+            <div class="card text-bg-dark">
+            <img src="/media/economia-circolare.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          --}}
+
+
         
     </div>
     <div class="container mb-5">
