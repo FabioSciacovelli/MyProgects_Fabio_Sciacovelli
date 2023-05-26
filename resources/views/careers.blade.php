@@ -1,4 +1,7 @@
-<x-layout headerTitle="Lavora con noi"> 
+<x-layout>
+    <x-header>
+        Lavora con noi 
+    </x-header>
     
     <div class="container my-5">
         <div class="row justify-content-center align-items-center border rounded p-2 shadow">

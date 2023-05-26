@@ -1,4 +1,7 @@
-<x-layout headerTitle="Inserisci un articolo">
+<x-layout>
+    <x-header>
+        Inserisci un articolo
+    </x-header>
 
     <div class="container my-5">
         <div class="row justify-content-center">

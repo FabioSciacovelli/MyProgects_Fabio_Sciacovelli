@@ -1,9 +1,13 @@
-<x-layout headerTitle="Accedi">
+<x-layout>
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
 
                 <form class="p-5 border" action="{{route('login')}}" method="POST">
+
+                    <h1 class="text-blackcustom">
+                        ACCEDI
+                    </h1>
 
                     @if ($errors->any())
                         <div class="alert alert-danger">

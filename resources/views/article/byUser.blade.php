@@ -1,4 +1,10 @@
-<x-layout headerTitle="{{$user->name}}">
+<x-layout>
+    <x-header>
+        {{$user->name}}
+    </x-header>
+
+
+
    
     <div class="container my-5">
         <div class="row justify-content-around">

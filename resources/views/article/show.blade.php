@@ -1,4 +1,7 @@
-<x-layout headerTitle="{{$article->title}}">
+<x-layout>
+    <x-header>
+        {{$article->title}}
+    </x-header>
    
 
     <div class="container mt-5">

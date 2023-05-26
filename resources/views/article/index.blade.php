@@ -1,4 +1,7 @@
-<x-layout headerTitle="Tutti gli articoli">
+<x-layout>
+    <x-header>
+        Tutti gli articoli
+    </x-header>
    
 
     <div class="container my-5">

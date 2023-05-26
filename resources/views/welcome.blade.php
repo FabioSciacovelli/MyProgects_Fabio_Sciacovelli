@@ -1,4 +1,12 @@
-<x-layout headerTitle="HealthyEarth">
+<x-layout>
+  <x-header>
+
+    
+      HealthyEarth
+    
+
+  </x-header>
+  
     @if(session('message'))
         <div class="alert alert-success text-center">
             {{session('message')}}

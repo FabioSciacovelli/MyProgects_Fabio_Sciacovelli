@@ -1,5 +1,7 @@
-<x-layout headerTitle="{{$category->name}}">
-   
+<x-layout>
+    <x-header>
+        {{$category->name}}
+    </x-header>
     <div class="container my-5">
         <div class="row justify-content-around">
             @foreach($articles as $article)

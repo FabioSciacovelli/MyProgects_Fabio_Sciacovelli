@@ -78,4 +78,11 @@ h1{
     }
 }
 
+.bgRegisterLogin{
+    background-image: url('/public/media/sfondogreen_presto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
 
