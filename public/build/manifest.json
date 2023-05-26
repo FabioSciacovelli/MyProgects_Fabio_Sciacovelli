@@ -1,0 +1,16 @@
+{
+  "public/media/sfondogreen_presto.png": {
+    "file": "assets/sfondogreen_presto-7066776a.png",
+    "src": "public/media/sfondogreen_presto.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-985b01ad.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-d793d40c.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
