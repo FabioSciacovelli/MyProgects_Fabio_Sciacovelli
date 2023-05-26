@@ -4,14 +4,14 @@
             {{session('message')}}
         </div>
     @endif
-
+{{-- 
   <div class="container">
     <div class="row justify-content-center m-4">
        <div class="col-12 text-center">
            <a href="{{route('article.create')}}" type="submit" class="btn btn-success">Inserisci il tuo articolo</a>
        </div>
     </div>
-  </div>
+  </div> --}}
 
   <div class="container my-5">
     <div class="row justify-content-around">

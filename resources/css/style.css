@@ -1,14 +1,59 @@
 :root{
-    --primary: #00E866;
+    --primary: #a3b18a;
     --secondary: #007A37;
     --accent: #007A35;
     --whitecustom: #D8F2E1;
-    --blackcustom: #003B1A;
+    --blackcustom: #003b1a;
+}
+.background-test{
+
+    background: rgb(47,103,54);
+    background: linear-gradient(103deg, rgba(47,103,54,1) 0%, rgba(23,35,33,1) 100%, rgba(42,106,72,1) 100%);
+
+}
+    
+/* Classi colori background */
+.background-primary{
+    background-color: var(--primary);
+}
+.background-secondary{
+    background-color: var(--secondary);
+}
+.background-accent{
+    background-color: var(--accent);
+}
+.background-whitecustom{
+    background-color: var(--whitecustom);
+}
+.background-blackcustom{
+    background-color: var(--blackcustom);
+}
+
+/* Classi colori testi */
+
+.text-primaryC{
+    color: var(--primary);
+}
+
+.text-secondaryC{
+    color: var(--secondary);
+}
+
+.text-accent{
+    color: var(--accent);
+}
+
+.text-whitecustom{
+    color: var(--whitecustom);
+}
+
+.text-blackcustom{
+    color: var(--blackcustom);
 }
 
 .active{
-    background-color: white!important;
-    color: green!important;
+    
+    color: #fefee3!important;
     transform: scale(1)!important;
     border-radius: 5%;
 }
@@ -32,4 +77,5 @@ h1{
       font-size: 30px;
     }
 }
+
 

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark background-test fixed-top text-primaryC">
     <div class="container-fluid">
       <i class="fa-brands fa-envira icona"></i>
       <a class="navbar-brand @if(Route::currentRouteName() == 'homepage') active @endif" href="{{ route('homepage') }}">HealthyEarth</a>
@@ -20,9 +20,11 @@
               @endforeach                          
             </ul>
           </li>
+          @if(Auth::user() && Auth::user()->is_writer)
           <li class="nav-item">
             <a class="nav-link @if(Route::currentRouteName() == 'article.create') active @endif" href="{{ route('article.create') }}">Inserisci un articolo</a>
           </li>
+          @endif
           <li class="nav-item">
             <a class="nav-link @if(Route::currentRouteName() == 'article.index') active @endif" href="{{ route('article.index') }}">Tutti gli articoli</a>
           </li>
