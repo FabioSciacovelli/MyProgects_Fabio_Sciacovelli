@@ -82,14 +82,7 @@
                     </form>
                 </div>
 
-                <div class="caption">
-                    <img src="esempio2.jpg" alt="" />
-                    <span>
-                       <strong>Lorem ipsum</strong>
-                       Lorem ipsum dolor sit amet consectetuer eros
-                       vivamus porta interdum venenatis.
-                    </span>
-                </div>
+               
                             
             </div>
         </div>

@@ -38,13 +38,7 @@
             </div>
           </div>
         --}}
-
-
-
-
-
-
-            {{-- PENULTIMO TENTATIVO
+{{-- 
             <div class="container my-5">
                 <div class="row justify-content-around">
         
@@ -72,10 +66,7 @@
                     
                 </div>
             </div> --}}
-  
 
-
-            
 
 
             {{-- <div class="container my-5">
@@ -107,46 +98,30 @@
                     
                 </div>
             </div> --}}
-
-
-
-
-
+            
             <div class="container my-5">
                 <div class="row justify-content-around">
         
                     @foreach($articles as $article)
 
-                        <div class="col-12 col-md-6 mt-4">
+                        <div class="col-12 col-md-5 mt-4">
 
                             <div class="caption">
-
-                            
-                                <img src="{{Storage::url($article->image)}}" alt="" class="img-custom"/>
+                                <img src="{{Storage::url($article->image)}}" alt="" />
                                 <span>
-                                   <p class="card-text fst-italic text-capitalize">
-                                    <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="text-light">{{$article->category->name}}</a>
+                                   <strong>Lorem ipsum</strong>
+                                   <p class="card-text small text-muted fst-italic text-capitalize">
+                                    <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="small text-muted fst-italic text-capitalize">{{$article->category->name}}</a>
                                     </p>
                                     <h5 class="card-title">{{$article->title}}</h5>
                                     <p class="card-text">{{$article->subtitle}}</p>
-
-                                    <div class="d-flex justify-content-between">
-                                        <div class="d-flex justify-content-start">
-                                            <div>
-                                            Redatto il {{$article->created_at->format('d/m/Y')}} da 
-                                            </div>
-                                            <div> 
-                                            <a href="{{route('article.byUser', ['user' => $article->user->id])}}" class="small text-light fst-italic text-capitalize m-2">{{$article->user->name}}</a>
-                                            </div>
-                                        </div>
-                                        <div class="">
-                                        <a href="{{route('article.show', compact('article'))}}" class="ms-5 btn rounded-0 background-accent text-white btn-custom">Leggi</a>
-                                        </div>
-                                    </div>
                                 </span>
-                            </div>
+                             </div>
                     
-                           
+                            <div class="card-footer text-bg-dark text-muted d-flex justify-content-center align-items-center">
+                                Redatto il {{$article->created_at->format('d/m/Y')}} da  <a href="{{route('article.byUser', ['user' => $article->user->id])}}" class="small text-muted fst-italic text-capitalize m-2">{{$article->user->name}}</a>
+                                <a href="{{route('article.show', compact('article'))}}" class="ms-5 btn btn-success text-white">Leggi</a>
+                            </div>
                         </div>
                 
                     @endforeach
@@ -154,18 +129,14 @@
                 </div>
             </div>
 
-
-
-
-
-
+ 
 
 
 
     <div class="container mb-5">
-        <div class="row justify-content-end">
+        <div class="row justify-content-center">
             <div class="col-12 col-md-2">
-                <a href="{{route ('homepage')}}" class="btn rounded-0 backhoover  ">Torna indietro</a>
+                <a href="{{route ('homepage')}}" class="btn btn-success text-white ">Torna indietro</a>
             </div>
         </div>
     </div>
