@@ -4,7 +4,7 @@
     </x-header>
    
 
-    <div class="container my-5">
+    {{-- <div class="container my-5">
         <div class="row justify-content-around">
 
             @foreach($articles as $article)
@@ -26,7 +26,7 @@
             </div>
             @endforeach
             
-        </div>
+        </div> --}}
 
         {{-- CARD DA PROVARE PER AVERE IL TESTO SULL' IMG.
             <div class="card text-bg-dark">
@@ -38,6 +38,35 @@
             </div>
           </div>
           --}}
+
+          <div class="container my-5">
+
+            
+            <div class="row justify-content-around">
+    
+                @foreach($articles as $article)
+                <div class="col-12 col-md-5 mt-4">
+                    <div class="card rounded-0 text-bg-dark border border-0">
+                        <img src="{{Storage::url($article->image)}}" class="card-img rounded-0" alt="...">
+                        <div class="card-img-overlay d-flex justify-content-end flex-column">
+                            <h5 class="card-title">{{$article->title}}</h5>
+                            <p class="card-text">{{$article->subtitle}}</p>
+                            <p class="card-text small text-muted fst-italic text-capitalize">
+                                <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="small text-muted fst-italic text-capitalize">{{$article->category->name}}</a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="card-footer text-bg-dark text-muted d-flex justify-content-center align-items-center">
+                        Redatto il {{$article->created_at->format('d/m/Y')}} da  <a href="{{route('article.byUser', ['user' => $article->user->id])}}" class="small text-muted fst-italic text-capitalize m-2">{{$article->user->name}}</a>
+                        <a href="{{route('article.show', compact('article'))}}" class="ms-5 btn btn-success text-white">Leggi</a>
+                    </div>
+                </div>
+             
+                @endforeach
+                
+            </div>
+
 
 
         
