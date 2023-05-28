@@ -1,6 +1,6 @@
 <x-layout>
     <x-header>
-        {{$article->title}}
+        <span class="otherstitle">{{$article->title}}</span>
     </x-header>
    
 

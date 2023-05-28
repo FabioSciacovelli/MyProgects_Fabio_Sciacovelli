@@ -2,7 +2,7 @@
   <x-header>
 
     
-      HealthyEarth
+      <span class="text-light">Healthy</span>Earth
     
 
   </x-header>

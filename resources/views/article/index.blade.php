@@ -1,6 +1,6 @@
 <x-layout>
     <x-header>
-        Tutti gli articoli
+        <span class="otherstitle">TUTTI GLI ARTICOLI</span>
     </x-header>
    
 

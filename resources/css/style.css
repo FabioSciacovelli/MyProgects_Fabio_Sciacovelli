@@ -59,9 +59,24 @@
 }
 
 h1{
-    font-family: 'Big Shoulders Inline Text', cursive;
-    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    color: #005123;
     font-size: 100px;
+}
+
+.otherstitle{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+.titlecreate{
+    color: #005123;
+    font-size: 70px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .icona{
@@ -69,13 +84,19 @@ h1{
 }
 
 .headergreen{
-    background-image: url('/public/media/arido.jpg');
+    background-image: url('/public/media/terrenoarido.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .opacity{
     opacity: 0.85;
+}
+
+.bgcreate{
+    background-image: url('/public/media/terrenoarido.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bgRegisterLogin{
@@ -135,5 +156,13 @@ h1{
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 30px;
+    }
+
+    .otherstitle{
+        font-size: 24px;
+    }
+
+    .titlecreate{
+        font-size: 24px;
     }
 }

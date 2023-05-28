@@ -1,6 +1,6 @@
 <x-layout>
     <x-header>
-        {{$category->name}}
+        <span class="otherstitle uppercase">{{$category->name}}</span>
     </x-header>
 
     <div class="container my-5">

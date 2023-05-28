@@ -1,6 +1,6 @@
 <x-layout>
     <x-header>
-        {{$user->name}}
+        <span class="otherstitle">{{$user->name}}</span>
     </x-header>
 
     <div class="container my-5">
