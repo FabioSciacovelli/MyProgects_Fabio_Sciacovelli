@@ -2,6 +2,8 @@
     --primary: #a3b18a;
     --secondary: #007A37;
     --accent: #007A35;
+    --colorbutton1: #027032;
+    --colorbutton2: #02b14e;
     --whitecustom: #D8F2E1;
     --blackcustom: #003b1a;
 }
@@ -67,7 +69,7 @@ h1{
 }
 
 .headergreen{
-    background-image: url('/public/media/terreno.jpeg');
+    background-image: url('/public/media/arido.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -82,16 +84,6 @@ h1{
     background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-    h1 {
-      font-size: 30px;
-    }
-}
-
-
-
-
-
 .caption {
     
     margin: 0;
@@ -100,6 +92,7 @@ h1{
     overflow: hidden;
     
 }
+
 .caption img {
     
     margin: 0;
@@ -112,7 +105,6 @@ h1{
    
 }
 
-  
 .caption span {
     
     margin: 0;
@@ -126,48 +118,22 @@ h1{
     bottom: 0;
 }
 
-/* .btn-custom{
-    position:absolute;
-    right: 0;
-    bottom:0;
-} */
-
-
-@media screen and (max-width: 990px){
-      
-      /* .caption {
-        position: static;
-        
-      }
-       .caption span {
-        position:relative;
-        background: #003b1a;
-
-      }   */
-
-        
-
-        /* .btn-custom {
-        position:absolute;
-        right:0;
-        bottom: 0;
-
-      } 
-          */
-
-}
-
 .back{
-    background-color: var(--blackcustom);
+    background-color: var(--colorbutton1);
     color: white;
-   
 }
 
  .back:hover {
-    background-color: var(--accent)!important;
+    background-color: var(--colorbutton2)!important;
     color: #f1f6f4 !important;
-   
 }
 
+.hnav:hover{
+    background-color: var(--accent)!important;
+}
 
- 
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 30px;
+    }
+}

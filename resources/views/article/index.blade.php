@@ -118,10 +118,8 @@
                     @foreach($articles as $article)
 
                         <div class="col-12 col-md-6 mt-4">
-
                             <div class="caption">
 
-                            
                                 <img src="{{Storage::url($article->image)}}" alt="" class="img-custom"/>
                                 <span>
                                    <p class="card-text fst-italic text-capitalize">
@@ -144,22 +142,13 @@
                                         </div>
                                     </div>
                                 </span>
-                            </div>
-                    
-                           
+                            </div>                          
                         </div>
                 
                     @endforeach
                     
                 </div>
             </div>
-
-
-
-
-
-
-
 
 
     <div class="container mb-5">
