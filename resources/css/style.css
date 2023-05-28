@@ -157,14 +157,17 @@ h1{
 
 }
 
-.backhoover{
-    background: var(--accent);
+.back{
+    background-color: var(--blackcustom);
     color: white;
+   
 }
 
-/* .backhoover:hoover {
-    background: var(--blackcustom)!important;
-    color: #007a37 !important;
-    border: #003b1a!important;
-} */
+ .back:hover {
+    background-color: var(--accent)!important;
+    color: #f1f6f4 !important;
+   
+}
 
+
+ 

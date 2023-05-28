@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                         <div class="">
-                                        <a href="{{route('article.show', compact('article'))}}" class="ms-5 btn rounded-0 background-accent text-white btn-custom">Leggi</a>
+                                        <a href="{{route('article.show', compact('article'))}}" class="ms-5 btn rounded-0 background-accent text-white back">Leggi</a>
                                         </div>
                                     </div>
                                 </span>
@@ -165,7 +165,7 @@
     <div class="container mb-5">
         <div class="row justify-content-end">
             <div class="col-12 col-md-2">
-                <a href="{{route ('homepage')}}" class="btn rounded-0 backhoover  ">Torna indietro</a>
+                <a href="{{route ('homepage')}}" class="btn back rounded-0  ">Torna indietro</a>
             </div>
         </div>
     </div>
