@@ -22,11 +22,12 @@ class ArticleRequest extends FormRequest
     public function rules(): array
     {
         return [
-                'title' => 'required|unique:articles|min:5',
+                'title' => 'required|unique:articles|min:5|max:20',
                 'subtitle' => 'required|unique:articles|min:5',
                 'body' => 'required|min:10',
                 'image' => 'image|required',
                 'category' => 'required',
+                'tags' => 'required',
         ];
     }
 
@@ -36,12 +37,14 @@ class ArticleRequest extends FormRequest
             
             'title.required' => 'Devi inserire il titolo dell\' articolo',
             'title.min' => 'Il titolo deve avere minimo 5 caratteri',
+            'title.max' =>'Il titolo deve avere massimmo 20 caratteri',
             'subtitle.required' => 'Devi inserire un sottotitolo',
             'subtitle.min' => 'Il sottotitolo deve avere almeno 5 caratteri',
             'body.required' => 'Devi inserire il corpo dell\' articolo',
             'body.min' => 'IL corpo del testo deve avere almeno 10 caratteri',
             'image.required' => 'Devi inserire una immagine',
             'category.required' => 'Devi inserire una categoria',
+            'tags.required'=>'Non corretto',
         ];
         
     }

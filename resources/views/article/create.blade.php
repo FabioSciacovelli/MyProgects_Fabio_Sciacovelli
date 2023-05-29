@@ -29,7 +29,10 @@
 
                         <div class="mb-3">
                             <label for="title" class="form-label">Titolo</label>
-                            <input type="text" name="title" class="form-control" id="title" value="{{old('title')}}">
+
+                            <input type="text" name="title" class="form-control" id="title" placeholder="min 5 max 40" value="{{old('title')}}">
+                            
+                            
                             @error('title')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
@@ -37,7 +40,7 @@
 
                         <div class="mb-3">
                             <label for="subtitle" class="form-label">Sottotitolo</label>
-                            <input type="text" name="subtitle" class="form-control" id="subtitle" value="{{old('subtitle')}}">
+                            <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="minimo 5 caratteri" value="{{old('subtitle')}}">
                             @error('subtitle')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
@@ -64,6 +67,12 @@
                             @error('category')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="tags" class="form-label">Tags:</label>
+                            <input  name="tags" class="form-control" id="tags" value="{{old('tags')}}">
+                            <span class="small fst-italic">Dividi ogni tag con una virgola</span>
                         </div>
 
                         <div class="mb-3">
