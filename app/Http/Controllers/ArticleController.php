@@ -23,8 +23,8 @@ class ArticleController extends Controller
     {
         $request->validate([
             'title' => 'required|unique:articles|min:5|max:20',
-            'subtitle' => 'required|unique:articles|min:5',
-            'body' => 'required|min:10',
+            'subtitle' => 'required|unique:articles|min:5|max:40',
+            'body' => 'required|min:10|max:1000',
             'image' => 'image|required',
             'category' => 'required',
             'tags' => 'required',

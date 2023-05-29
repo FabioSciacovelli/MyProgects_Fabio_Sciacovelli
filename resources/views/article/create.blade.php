@@ -28,9 +28,9 @@
                         @endif
 
                         <div class="mb-3">
-                            <label for="title" class="form-label">Titolo</label>
+                            <label for="title" class="form-label fw-bold">Titolo</label>
 
-                            <input type="text" name="title" class="form-control" id="title" placeholder="min 5 max 40" value="{{old('title')}}">
+                            <input type="text" name="title" class="form-control" id="title" placeholder="Min 5, max 40" value="{{old('title')}}">
                             
                             
                             @error('title')
@@ -39,23 +39,24 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="subtitle" class="form-label">Sottotitolo</label>
-                            <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="minimo 5 caratteri" value="{{old('subtitle')}}">
+                            <label for="subtitle" class="form-label fw-bold">Sottotitolo</label>
+                            <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="Min 5, max 40" value="{{old('subtitle')}}">
                             @error('subtitle')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
                         </div>
 
                         <div class="mb-3">
-                            <label for="image" class="form-label">Immagine</label>
+                            <label for="image" class="form-label fw-bold">Immagine</label>
                             <input type="file" name="image" class="form-control" id="image">
+                            <span class="small fst-italic">Inserisci una immagine</span>
                             @error('image')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
                         </div>
 
                         <div class="mb-3">
-                            <label for="category" class="form-label">Categoria:</label>
+                            <label for="category" class="form-label fw-bold">Categoria:</label>
                             <select  name="category" class="form-control text-capitalize" id="category">
 
 
@@ -64,32 +65,32 @@
                                 @endforeach
                                 
                             </select> 
+                            <span class="small fst-italic">Scegli una categoria</span>
                             @error('category')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
                         </div>
 
                         <div class="mb-3">
-                            <label for="tags" class="form-label">Tags:</label>
-                            <input  name="tags" class="form-control" id="tags" value="{{old('tags')}}">
-                            <span class="small fst-italic">Dividi ogni tag con una virgola</span>
+                            <label for="tags" class="form-label fw-bold">Tags:</label>
+                            <input  name="tags" class="form-control" id="tags" value="{{old('tags')}}" placeholder="Dividi ogni tag con una virgola">
                         </div>
 
                         <div class="mb-3">
-                            <label for="body" class="form-label">Corpo del testo:</label>
-                            <textarea  name="body"  rows="10" cols="30" class="form-control" id="body">{{old('body')}}</textarea>
+                            <label for="body" class="form-label fw-bold">Corpo del testo:</label>
+                            <textarea  name="body"  rows="10" cols="30" class="form-control" id="body" placeholder="Il corpo del teste dev' essere tra i 10 e i 1000 caratteri">{{old('body')}}</textarea>
                             @error('body')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
                         </div>
 
                         <div class="mt-2">
-                            <button class="btn btn-success text-white m-3">Inserisci un articolo</button>
-                            <a class="btn btn-outline-success" href="{{route('homepage')}}">Torna alla home</a>
+                            <button class="btn btn-success back text-white m-3 rounded-0">Inserisci un articolo</button>
+                            <a class="btn oran rounded-0" href="{{route('homepage')}}">Torna alla home</a>
                         </div>
                         
                     </form>
-                
+                </div>
 
                
                   

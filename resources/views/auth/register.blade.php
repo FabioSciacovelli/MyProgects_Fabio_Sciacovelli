@@ -23,26 +23,26 @@
 
                     <div class="mb-3">
                       <label for="email" class="form-label">Indirizzo Email</label>
-                      <input type="email" name="email" class="form-control" id="email">
+                      <input type="email" name="email" class="form-control" id="email" placeholder="example@gmail.com">
                     </div>
 
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome Utente</label>
-                        <input type="text" name="name" class="form-control" id="name">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="">
                       </div>
 
                     <div class="mb-3">
                       <label for="password" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="password">
+                      <input type="password" name="password" class="form-control" id="password" placeholder="">
                     </div>
 
                     <div class="mb-3">
                         <label for="password_confirmation" class="form-label">Conferma Password</label>
-                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation">
+                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" placeholder="">
                       </div>
 
 
-                    <button type="submit" class="btn btn-dark">Registrati</button><br>
+                    <button type="submit" class="btn back">Registrati</button><br>
                     <a href="{{route('login')}}" class="small fst-italic">Sei già registrato?</a>
 
                 </form>

@@ -23,8 +23,8 @@ class ArticleRequest extends FormRequest
     {
         return [
                 'title' => 'required|unique:articles|min:5|max:20',
-                'subtitle' => 'required|unique:articles|min:5',
-                'body' => 'required|min:10',
+                'subtitle' => 'required|unique:articles|min:5|max:40',
+                'body' => 'required|min:10|max:1000',
                 'image' => 'image|required',
                 'category' => 'required',
                 'tags' => 'required',
@@ -40,8 +40,10 @@ class ArticleRequest extends FormRequest
             'title.max' =>'Il titolo deve avere massimmo 20 caratteri',
             'subtitle.required' => 'Devi inserire un sottotitolo',
             'subtitle.min' => 'Il sottotitolo deve avere almeno 5 caratteri',
+            'subtitle.max' => 'Il sottotitolo deve avere massimo 40 caratteri',
             'body.required' => 'Devi inserire il corpo dell\' articolo',
             'body.min' => 'IL corpo del testo deve avere almeno 10 caratteri',
+            'body.max' => 'Il corpo del testo deve avere massimo 1000 caratteri',
             'image.required' => 'Devi inserire una immagine',
             'category.required' => 'Devi inserire una categoria',
             'tags.required'=>'Non corretto',

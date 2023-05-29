@@ -149,6 +149,17 @@ h1{
     color: #f1f6f4 !important;
 }
 
+.oran{
+    background-color: white;
+    color: rgb(180,103,51);
+    border-color: rgb(180,103,51);
+}
+
+ .oran:hover {
+    background-color: rgb(180,103,51)!important;
+    color: #f1f6f4 !important;
+}
+
 .hnav:hover{
     background-color: var(--accent)!important;
     
