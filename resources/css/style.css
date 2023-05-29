@@ -2,6 +2,8 @@
     --primary: #a3b18a;
     --secondary: #007A37;
     --accent: #007A35;
+    --colorbutton1: #027032;
+    --colorbutton2: #02b14e;
     --whitecustom: #D8F2E1;
     --blackcustom: #003b1a;
 }
@@ -57,9 +59,24 @@
 }
 
 h1{
-    font-family: 'Big Shoulders Inline Text', cursive;
-    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    color: #005123;
     font-size: 100px;
+}
+
+.otherstitle{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+.titlecreate{
+    color: #005123;
+    font-size: 70px;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 
 .icona{
@@ -67,7 +84,7 @@ h1{
 }
 
 .headergreen{
-    background-image: url('/public/media/sfondoform33.jpg');
+    background-image: url('/public/media/terrenoarido.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -76,18 +93,76 @@ h1{
     opacity: 0.85;
 }
 
+.bgcreate{
+    background-image: url('/public/media/terrenoarido.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .bgRegisterLogin{
     background-image: url('/public/media/sfondo22.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.caption {
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.caption img {
+    
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: none;
+    /* height: 450px; */
+    width: 100%;
+    height: 100%;
+   
+}
+
+.caption span {
+    
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    color: #dedede;
+    
+    background: linear-gradient(#003b1a56, #003b1a);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.back{
+    background-color: var(--colorbutton1);
+    color: white;
+}
+
+ .back:hover {
+    background-color: var(--colorbutton2)!important;
+    color: #f1f6f4 !important;
+}
+
+.hnav:hover{
+    background-color: var(--accent)!important;
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
       font-size: 30px;
     }
+
+    .otherstitle{
+        font-size: 24px;
+    }
+
+    .titlecreate{
+        font-size: 24px;
+    }
 }
-
-
-
-

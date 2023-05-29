@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="mt-2">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-success">Invia</button>
                     </div>
                 </form>
 
