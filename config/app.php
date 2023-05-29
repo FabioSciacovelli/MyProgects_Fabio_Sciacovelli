@@ -4,7 +4,8 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-
+    
+    'driver' => env('SCOUT_DRIVER', 'tntsearch'),
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -160,6 +161,8 @@ return [
          * Package Service Providers...
          */
         App\Providers\FortifyServiceProvider::class,
+        TeamTNT\Scout\TNTSearchScoutServiceProvider::class,
+        Laravel\Scout\ScoutServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -184,5 +187,8 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
+
+
+    
 
 ];
