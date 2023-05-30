@@ -1,4 +1,4 @@
-<div class="container col-12 table-responsive">
+<div class="container col-12 table">
   <div class="row">
     <div class="col-12">
       <table class="table btnMobile table-striped table-hover border">

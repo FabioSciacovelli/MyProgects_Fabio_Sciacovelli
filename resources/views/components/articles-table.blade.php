@@ -1,4 +1,4 @@
-<table class="table table-striped table-hover border">
+<table class="table btnMobile table-striped table-hover border">
     <thead class="table-success">
       <tr>
         <th scope="col">#</th>
@@ -18,9 +18,9 @@
             <td>
 
                 @if(is_null($article->is_accepted))
-                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn btn-success">Leggi l'articolo</a>
+                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn btnMobile btn-success">Leggi l'articolo</a>
                 @else
-                <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btn-success">Riporta in revisione</a>
+                <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btnMobile btn-success">Riporta in revisione</a>
                 @endif
               
             </td>

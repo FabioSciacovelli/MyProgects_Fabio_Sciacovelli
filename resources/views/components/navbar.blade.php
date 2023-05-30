@@ -55,10 +55,10 @@
         </ul>
         <form class="d-flex" metho="GET" action="{{route('article.search')}}">
           <input class="form-control me-2 rounded-0" type="search" name="query" placeholder="Cosa stai cercando?" aria-label="Search">
-          <button class="btn back rounded-0" type="submit">Cerca</button>
+          <button class="btn back rounded-0 me-3" type="submit">Cerca</button>
         </form>
         
-        <ul class="navbar-nav text-end mb-2 mb-lg-0 ms-3 me-3">
+        <ul class="navbar-nav text-end mb-2 mb-lg-0 me-3">
           <li class="nav-item text-start list-unstyled hnav">
             <a class="nav-link text-light  @if(Route::is('careers')) active @endif" href="{{ route('careers') }}">Lavora con noi</a>
           </li>

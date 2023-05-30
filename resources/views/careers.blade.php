@@ -1,6 +1,9 @@
 <x-layout>
     <x-header>
-        Lavora con noi 
+        <span class="otherstitle">
+            Lavora con noi
+        </span>
+         
     </x-header>
     
     <div class="container my-5">
@@ -48,7 +51,7 @@
                     </div>
 
                     <div class="mt-2">
-                        <button type="submit" class="btn btn-success">Invia</button>
+                        <button type="submit" class="back rounded-0 btn btn-success">Invia</button>
                     </div>
                 </form>
 
