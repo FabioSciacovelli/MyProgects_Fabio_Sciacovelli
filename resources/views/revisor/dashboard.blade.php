@@ -1,10 +1,10 @@
 <x-layout>
     <div class="bgLavoraconnoi">
         <div class="container mt-5">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-12">
+            <div class="row justify-content-center align-items-center mt-5">
+                <div class="col-12 mt-5">
 
-                    <h1 class="otherstitle text-center">Bentornato Revisore</h1>
+                    <h1 class="otherstitle text-center">Dashboard Revisore</h1>
 
 
                     @if(session('message'))
