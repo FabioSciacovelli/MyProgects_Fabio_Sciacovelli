@@ -105,6 +105,12 @@ h1{
     background-size: cover;
 }
 
+.bgLavoraconnoi{
+    background-image: url('/public/media/sfondogreen_presto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .caption {
     
     margin: 0;

@@ -32,8 +32,8 @@
                             <form action="{{route('admin.editTag', ['tag'=> $metaInfo])}}" method="POST">
                                 @csrf
                                 @method('put')
-                                <input type="text" name="name" placeholder="Nuovo tag" class="btnMobile form-control w-50 d-inline">
-                                <button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button>
+                                <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline">
+                                <span><button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button></span>
                             </form>
                         </td>
                         <td>
