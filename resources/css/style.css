@@ -177,4 +177,12 @@ h1{
     .titlecreate{
         font-size: 24px;
     }
+
+    .btnMobile{
+        font-size: 11px
+    }
+    
+    .titletable{
+        font-size: 20px;
+    }
 }
