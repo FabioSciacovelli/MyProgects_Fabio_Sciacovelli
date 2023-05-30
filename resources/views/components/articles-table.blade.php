@@ -1,5 +1,5 @@
-<table class="table btnMobile table-striped table-hover border">
-    <thead class="table-success">
+<table class="bg-dark opacity table btnMobile table-striped  border text-white">
+    <thead class="table-success text-center">
       <tr>
         <th scope="col">#</th>
         <th scope="col">Titolo</th>
@@ -11,16 +11,16 @@
     <tbody>
         @foreach ($articles as $article)
         <tr>
-            <th scope="row">{{$article->id}}</th>
-            <td>{{$article->title}}</td>
-            <td>{{$article->subtitle}}</td>
-            <td>{{$article->user->name}}</td>
-            <td>
+            <th class="text-white" scope="row">{{$article->id}}</th>
+            <td class="text-white" >{{$article->title}}</td>
+            <td class="text-white">{{$article->subtitle}}</td>
+            <td class="text-white">{{$article->user->name}}</td>
+            <td class="text-white">
 
                 @if(is_null($article->is_accepted))
-                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn btnMobile btn-success">Leggi l'articolo</a>
+                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn back rounded-0 ">Leggi l'articolo</a>
                 @else
-                <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btnMobile btn-success">Riporta in revisione</a>
+                <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btnMobile back rounded-0">Riporta in revisione</a>
                 @endif
               
             </td>

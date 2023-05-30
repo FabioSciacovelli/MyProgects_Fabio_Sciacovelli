@@ -1,13 +1,13 @@
 <div class="container col-12 table">
   <div class="row">
     <div class="col-12">
-      <table class="table btnMobile table-striped table-hover border">
+      <table class="bg-dark opacity table btnMobile table-striped  border text-white">
         <thead class="table-success">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Email</th>
-            <th scope="col">Azioni</th>
+            <th  scope="col">#</th>
+            <th  scope="col">Nome</th>
+            <th  scope="col">Email</th>
+            <th  scope="col">Azioni</th>
           </tr>
         </thead>
         <tbody>

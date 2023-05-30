@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <table class="table btnMobile table-striped table-hover border">
+            <table class="table btnMobile table-striped table-hover border bg-dark opacity">
                 <thead class="table-success">
                     <th scope="col">#</th>
                     <th scope="col">Nome tag</th>
@@ -24,15 +24,15 @@
             
                     @foreach ($metaInfos as $metaInfo)
                     <tr>
-                        <th scope="row">{{$metaInfo->id}}</th>
-                        <td>{{$metaInfo->name}}</td>
-                        <td>{{count($metaInfo->articles)}}</td>
+                        <th class="text-white" scope="row">{{$metaInfo->id}}</th>
+                        <td class="text-white">{{$metaInfo->name}}</td>
+                        <td class="text-white" >{{count($metaInfo->articles)}}</td>
                         @if($metaType == "tags")
                         <td>
                             <form action="{{route('admin.editTag', ['tag'=> $metaInfo])}}" method="POST">
                                 @csrf
                                 @method('put')
-                                <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline">
+                                <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline rounded-0">
                                 <span><button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button></span>
                             </form>
                         </td>
@@ -48,7 +48,7 @@
                             <form action="{{route('admin.editCategory', ['category' => $metaInfo])}}" method="POST">
                                 @csrf
                                 @method('put')
-                                <input type="text" name="name" placeholder="Nuova categoria" class="btnMobile form-control w-50 d-inline">
+                                <input type="text" name="name" placeholder="Nuova categoria" class="btnMobile form-control w-50 d-inline rounded-0">
                                 <button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button>
                             </form>
                         </td>
