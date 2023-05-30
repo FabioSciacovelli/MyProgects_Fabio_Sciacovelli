@@ -38,6 +38,7 @@ class Article extends Model
             'title' => $this->title,
             'body' => $this->body,
             'category' => $this->category,
+            'tags' => $this->tags,
         ];
     }
 
@@ -45,4 +46,3 @@ class Article extends Model
         return $this->belongsToMany(Tag::class);
     }
 }
-// 

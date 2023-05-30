@@ -54,22 +54,23 @@
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
                         </div>
-
                         <div class="mb-3">
-                            <label for="category" class="form-label fw-bold">Categoria:</label>
-                            <select  name="category" class="form-control text-capitalize" id="category">
-
-
-                                @foreach($categories as $category)
-                                    <option value="{{$category->id}}">{{$category->name}}</option>
-                                @endforeach
                                 
-                            </select> 
-                            <span class="small fst-italic">Scegli una categoria</span>
-                            @error('category')
-                            <div class="alert alert-danger">{{$message}}</div>
-                            @enderror
-                        </div>
+                                <label for="category" class="form-label fw-bold">Categoria:</label>
+                                <select  name="category"  class="form-control text-capitalize" id="category">
+                                    <option value="">--Seleziona--</option>
+    
+                                    @foreach($categories as $category)
+                                        <option value="{{$category->id}}">{{$category->name}}</option>
+                                    @endforeach
+                                    
+                                </select> 
+                                @error('category')
+                                <div class="alert alert-danger">{{$message}}</div>
+                                @enderror
+                            
+                            </div>
+
 
                         <div class="mb-3">
                             <label for="tags" class="form-label fw-bold">Tags:</label>

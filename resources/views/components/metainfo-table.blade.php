@@ -35,10 +35,10 @@
                 </form>
             </td>
             <td>
-                <form action="" method="">
+                <form action="{{route('admin.deleteTag',['tag' => $metaInfo])}}" method="POST">
                     @csrf
                     @method('delete')
-                    <input type="text" name="name" placeholder="Nuovo nome tag" class="form-control w-50 d-inline">
+                    <button type="submit" class="btn btn-danger runded-0 text-white">Elimina</button>
                 </form>
             </td>
             @else
