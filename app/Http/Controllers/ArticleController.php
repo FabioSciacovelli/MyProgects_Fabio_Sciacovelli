@@ -40,12 +40,13 @@ class ArticleController extends Controller
         ]);
 
         $tags = explode(', ',$request->tags);
-
+        
         foreach($tags as $tag){
             $newTag = Tag::updateOrCreate([
                 'name'=> $tag,
             ]);
             $article->tags()->attach($newTag);
+            // $article->save();
         }
 
         return redirect(route('homepage'))->with('message', 'Articolo creato correttamente');
@@ -124,5 +125,15 @@ class ArticleController extends Controller
 
         return view('article.search-index', compact('articles', 'query'));
     }
+    
+    public function editTag(Request $request, Tag $tag){
+        $request->validate([
+            'name'=> 'required|unique:tags',
+        ]);
+        $tag->update([
+            'name'=> strtolower($request->name),
+        ]);
 
+        return redirect(route('admin.dashboard'))->with('message', 'Hai correttamente aggiornato il tag');
+    }
 }

@@ -62,6 +62,12 @@
                       <h5 class="card-title">{{$article->title}}</h5>
                       <p class="card-text">{{$article->subtitle}}</p>
 
+                      <p class="small fst_italic text-capitalize">
+                        @foreach($article->tags as $tag)
+                        #{{$tag->name}}
+                        @endforeach
+                      </p>
+
                       <div class="d-flex justify-content-between">
                           <div class="d-flex justify-content-start">
                               <div>
