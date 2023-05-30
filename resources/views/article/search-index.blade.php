@@ -122,8 +122,16 @@
 
                                 <img src="{{Storage::url($article->image)}}" alt="" class="img-custom"/>
                                 <span>
-                                   <p class="card-text fst-italic text-capitalize">
-                                    <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="text-light">{{$article->category->name}}</a>
+                                    <p class="card-text fst-italic text-capitalize">
+
+                                        @if($article->category)
+                                            <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="text-light">{{$article->category->name}}</a>
+                                        @else
+                                            <p class="small text-muted fst-italic text-capitalize">
+                                                Non categorizzato
+                                            </p>
+                                        @endif
+
                                     </p>
                                     <h5 class="card-title">{{$article->title}}</h5>
                                     <p class="card-text">{{$article->subtitle}}</p>
