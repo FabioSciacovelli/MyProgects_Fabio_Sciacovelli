@@ -4,7 +4,7 @@
     </x-header>
    
 
-    <div class="container mt-5">
+    <div class="container mt-4">
         <div class="row justify-content-around">
             
             <div class="col-12 col-md-6 mt-4">

@@ -13,9 +13,9 @@
         <tbody>
             @foreach ($roleRequests as $user)
             <tr>
-                <th scope="row">{{$user->id}}</th>
-                <td>{{$user->name}}</td>
-                <td>{{$user->email}}</td>
+                <th class="text-white" scope="row">{{$user->id}}</th>
+                <td class="text-white">{{$user->name}}</td>
+                <td class="text-white">{{$user->email}}</td>
                
                 <td>
     

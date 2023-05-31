@@ -1,7 +1,7 @@
 <x-layout>
     <div class="bgLavoraconnoi">
         <div class="container mt-5">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center vh-100">
                 <div class="col-12">
     
                     <div class="container my-5 bg-dark opacity rounded-0 text-light">

@@ -80,6 +80,14 @@
         </ul>
         @endif
 
+        @if(Auth::user() && Auth::user()->is_writer)
+        <ul class="navbar-nav text-end mb-2 mb-lg-0 me-3">
+          <li class="nav-item text-start list-unstyled hnav">
+            <a class="nav-link text-light @if(Route::is('writer.dashboard')) active @endif" href="{{ route('writer.dashboard') }}">Dasboard Redattore</a>
+          </li>
+        </ul>
+        @endif
+
       </div>
     </div>
   </nav>

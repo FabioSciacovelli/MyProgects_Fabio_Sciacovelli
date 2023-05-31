@@ -28,17 +28,17 @@
 
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome Utente</label>
-                        <input type="text" name="name" class="form-control" id="name" placeholder="">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="min.3 max.10">
                       </div>
 
                     <div class="mb-3">
                       <label for="password" class="form-label">Password</label>
-                      <input type="password" name="password" class="form-control" id="password" placeholder="">
+                      <input type="password" name="password" class="form-control" id="password" placeholder="min.8 ">
                     </div>
 
                     <div class="mb-3">
                         <label for="password_confirmation" class="form-label">Conferma Password</label>
-                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" placeholder="">
+                        <input type="password" name="password_confirmation" class="form-control" id="password_confirmation" placeholder="min.8">
                       </div>
 
 

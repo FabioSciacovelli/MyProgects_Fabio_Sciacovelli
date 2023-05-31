@@ -51,7 +51,7 @@
 
       @foreach($articles as $article)
 
-          <div class="col-12 col-md-6 mt-4">
+          <div class="col-12 col-md-6 mt-3">
               <div class="caption">
 
                   <img src="{{Storage::url($article->image)}}" alt="" class="img-custom"/>
