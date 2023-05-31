@@ -30,7 +30,7 @@
                         <div class="mb-3">
                             <label for="title" class="form-label fw-bold">Titolo</label>
 
-                            <input type="text" name="title" class="form-control" id="title" placeholder="Min 5, max 40" value="{{old('title')}}">
+                            <input type="text" name="title" class="form-control" id="title" placeholder="Min 5, max 100" value="{{old('title')}}">
                             
                             
                             @error('title')
@@ -40,7 +40,7 @@
 
                         <div class="mb-3">
                             <label for="subtitle" class="form-label fw-bold">Sottotitolo</label>
-                            <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="Min 5, max 40" value="{{old('subtitle')}}">
+                            <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="Min 5, max 150" value="{{old('subtitle')}}">
                             @error('subtitle')
                             <div class="alert alert-danger">{{$message}}</div>
                             @enderror
