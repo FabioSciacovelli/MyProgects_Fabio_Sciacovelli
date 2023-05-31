@@ -26,9 +26,7 @@
                             <label for="title" class="form-label fw-bold">Titolo</label>
                             <input type="text" name="title" class="form-control" id="title" placeholder="Min 5, max 100" value="{{$article->title}}">
                                                        
-                            @error('title')
-                            <div class="alert alert-danger">{{$message}}</div>
-                            @enderror
+                           
 
                         </div>
 
@@ -36,9 +34,7 @@
                             <label for="subtitle" class="form-label fw-bold">Sottotitolo</label>
                             <input type="text" name="subtitle" class="form-control" id="subtitle" placeholder="Min 5, max 150" value="{{$article->subtitle}}">
                             
-                            @error('subtitle')
-                            <div class="alert alert-danger">{{$message}}</div>
-                            @enderror
+                            
                         </div>
 
 
@@ -47,9 +43,7 @@
                             <input type="file" name="image" class="form-control" id="image">
                             <span class="small fst-italic">Inserisci una immagine</span>
                             
-                            @error('image')
-                            <div class="alert alert-danger">{{$message}}</div>
-                            @enderror
+                            
                         </div>
 
 
@@ -62,9 +56,9 @@
                                         <option value="{{$category->id}}" @if($article->category && $category->id == $article->category->id) selected @endif>{{$category->name}}</option>
                                     @endforeach                                   
                                 </select> 
-                                @error('category')
-                                <div class="alert alert-danger">{{$message}}</div>
-                                @enderror
+                                
+                                
+                               
                         </div>
                             
 
@@ -76,14 +70,13 @@
 
                         <div class="mb-3">
                             <label for="body" class="form-label fw-bold">Corpo del testo:</label>
-                            <textarea  name="body"  rows="10" cols="30" class="form-control" id="body" placeholder="Il corpo del teste dev' essere tra i 10 e i 1000 caratteri">{{$article->body}}</textarea>
-                            @error('body')
-                            <div class="alert alert-danger">{{$message}}</div>
-                            @enderror
+                            <textarea  name="body"  rows="7" cols="30" class="form-control" id="body" placeholder="Il corpo del teste dev' essere tra i 10 e i 1000 caratteri">{{$article->body}}</textarea>
+                            
+                            
                         </div>
 
                         <div class="mt-2">
-                            <button class="btn btn-success back text-white m-3 rounded-0">Inserisci un articolo</button>
+                            <button class="btn btn-success back text-white m-3 rounded-0">Modifica un articolo</button>
                             <a class="btn oran rounded-0" href="{{route('homepage')}}">Torna alla home</a>
                         </div>
                         

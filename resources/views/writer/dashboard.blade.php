@@ -26,7 +26,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12">
                                 <h2 class="titletable text-center text-white">Articoli pubblicati</h2>
-                                <x-writer-articles-table :articles="$unrevisionedArticles" />
+                                <x-writer-articles-table :articles="$acceptedArticles" />
                                 
                             </div>
                         </div>
@@ -38,7 +38,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12">
                                 <h2 class="titletable text-center text-white">Articoli respinti</h2>
-                                <x-writer-articles-table :articles="$unrevisionedArticles" />  
+                                <x-writer-articles-table :articles="$rejectedArticles" />  
                             </div>
                         </div>
                     </div>
