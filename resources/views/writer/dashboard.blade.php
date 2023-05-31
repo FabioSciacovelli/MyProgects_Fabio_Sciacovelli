@@ -17,16 +17,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12 ">
                                 <h2 class="titletable text-center text-white">Articoli in fase di revisione</h2>
-                                <x-writer-articles.table :articles="$unrevisionedArticles" />
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container my-5" >
-                        <div class="row justify-content-center">
-                            <div class="col-12">
-                                <h2 class="titletable text-center text-white">Article pubblicati</h2>
-                                <x-writer-articles.table :articles="$unrevisionedArticles" />
+                                <x-writer-articles-table :articles="$unrevisionedArticles" />
                             </div>
                         </div>
                     </div>
@@ -35,7 +26,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12">
                                 <h2 class="titletable text-center text-white">Articoli pubblicati</h2>
-                                <x-writer-articles.table :articles="$unrevisionedArticles" />
+                                <x-writer-articles-table :articles="$unrevisionedArticles" />
                                 
                             </div>
                         </div>
@@ -47,7 +38,7 @@
                         <div class="row justify-content-center">
                             <div class="col-12">
                                 <h2 class="titletable text-center text-white">Articoli respinti</h2>
-                                <x-writer-articles.table :articles="$unrevisionedArticles" />  
+                                <x-writer-articles-table :articles="$unrevisionedArticles" />  
                             </div>
                         </div>
                     </div>

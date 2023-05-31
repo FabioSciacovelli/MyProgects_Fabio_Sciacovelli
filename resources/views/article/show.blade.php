@@ -21,7 +21,7 @@
                     </div> 
                 
                   
-                  <p> {{$article->body}} </p>
+                  <p>{{$article->body}}</p>
                   
                 </div>
             </div>

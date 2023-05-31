@@ -110,10 +110,10 @@ class ArticleController extends Controller
     public function update(Request $request, Article $article)
     {
         $request->validate([
-            'title' => 'required|unique:articles,title,|min:5|max:20' . $article->id,
-            'subtitle' => 'required|unique:articles,subtitle,|min:5|max:40' . $article->id,
-            'body' => 'required|min:10|max:1000',
-            'image' => 'image|required',
+            'title' => 'required|min:5|unique:articles,title,' . $article->id,
+            'subtitle' => 'required|min:5|unique:articles,subtitle,' . $article->id,
+            'body' => 'required|min:10',
+            'image' => 'image',
             'category' => 'required',
             'tags' => 'required',
         ]);
@@ -152,7 +152,12 @@ class ArticleController extends Controller
      */
     public function destroy(Article $article)
     {
-        //
+        foreach($article->tags as $tag){
+            $article->tags()->detach($tag);
+        }
+        $article->delete();
+
+        return redirect(route('writer.dashboard'))->with('message', 'Hai correttamente cancellato l\'articolo scelto');
     }
 
     public function articleSearch(Request $request){
