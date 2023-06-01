@@ -185,10 +185,23 @@ h1{
     }
 
     .btnMobile{
-        font-size: 11px
+        font-size: 11px;
     }
     
     .titletable{
         font-size: 20px;
     }
+
+    .table-custom th:first-child,td:first-child{
+        position: sticky;
+        left: -15px;
+        background-color: var(--accent);
+    }
 }
+
+/* .table-custom th:nth-child(1),.table-custom td:nth-child(2),th:nth-child(2),.table-custom td:nth-child(1){
+    position: sticky;
+    left: 0;
+    background-color: #003b1a;
+} */
+

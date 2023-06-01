@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
-        <div class="col-12">
-            <table class="table btnMobile table-striped table-hover border bg-dark opacity">
+        <div class="table-responsive">
+            <table class="table table-custom btnMobile table-striped table-hover border bg-dark opacity">
                 <thead class="table-success">
                     <tr>
                     <th scope="col">#</th>

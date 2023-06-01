@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
       <div class="table-responsive">
-        <table class="bg-dark opacity table btnMobile table-striped  border text-white">
+        <table class="bg-dark opacity table table-custom btnMobile table-striped  border text-white">
           <thead class="table-success">
             <tr>
               <th  scope="col">#</th>
@@ -32,7 +32,7 @@
                             <form action="{{route('article.destroy', compact('article'))}}" method="POST" class="d-inline">
                                 @csrf
                                 @method('delete')
-                                <button type="submit" class="btn btn-danger rounded-0">Elimina</button>
+                                <button type="submit" class="btn btn-danger rounded-0 btnMobile">Elimina</button>
                             </form>
                         </td>
                 </tr>
