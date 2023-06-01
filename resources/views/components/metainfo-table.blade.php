@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="table-responsive">
-            <table class="table table-custom btnMobile table-striped table-hover border bg-dark opacity">
+            <table class="table-custom btnMobile table-striped table-hover border bg-dark opacity">
                 <thead class="table-success">
                     <tr>
                     <th scope="col">#</th>
@@ -23,8 +23,10 @@
                             <form action="{{route('admin.editTag', ['tag'=> $metaInfo])}}" method="POST">
                                 @csrf
                                 @method('put')
-                                <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline rounded-0">
-                                <span><button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button></span>
+                                <div class="d-flex" >
+                                    <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline rounded-0">
+                                    <button type="submit" class="btn btnMobile back rounded-0 text-white mx-5 mx-md-2">Aggiorna</button>
+                                </div>
                             </form>
                         </td>
                         <td>
@@ -39,8 +41,10 @@
                             <form action="{{route('admin.editCategory', ['category' => $metaInfo])}}" method="POST">
                                 @csrf
                                 @method('put')
-                                <input type="text" name="name" placeholder="Nuova categoria" class="btnMobile form-control w-50 d-inline rounded-0">
-                                <button type="submit" class="btn btnMobile back rounded-0 text-white">Aggiorna</button>
+                                <div class="d-flex">
+                                    <input type="text" name="name" placeholder="Nuova categoria" class="btnMobile form-control w-50 d-inline rounded-0">
+                                    <button type="submit" class="btn btnMobile back rounded-0 text-white mx-5 mx-md-2">Aggiorna</button>
+                                </div>
                             </form>
                         </td>
                         <td>
