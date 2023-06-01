@@ -135,8 +135,8 @@
                                     </p>
                                     <h5 class="card-title">{{$article->title}}</h5>
                                     <p class="card-text">{{$article->subtitle}}</p>
+                                    <p class="small fst-italic text-white">Tempo di lettura: {{ $article->readDuration() }} min</p>
 
-                                    <span class="text-muted small fst-italic">Tempo di lettura: {{ $article->readDuration() }} min</span>
                                     <hr>
 
                                     <p class="small fst_italic text-capitalize">

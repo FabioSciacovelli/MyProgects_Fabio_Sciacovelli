@@ -7,13 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <h1>Abbiamo recevuto una richiesta</h1>
-    <h4>Richiesta per il ruolo di {{$info['role']}}</h4>
-    <p>Ricevuta da {{$info['email']}}</p>
 
-    <h4>Messaggio:</h4>
-    <p>{{$info['message']}}</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-danger">Abbiamo recevuto una richiesta</h1>
+                <h4>Richiesta per il ruolo di {{$info['role']}}</h4>
+                <p>Ricevuta da {{$info['email']}}</p>
+            
+                <h4>Messaggio:</h4>
+                <p>{{$info['message']}}</p>
+                
+            </div>
+        </div>
+    </div>
+    
 
 </body>
 </html>
