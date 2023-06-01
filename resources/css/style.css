@@ -199,11 +199,11 @@ h1{
         left: -15px;
         background-color: var(--accent);
     }
-}
 
-/* .table-custom th:nth-child(1),.table-custom td:nth-child(2),th:nth-child(2),.table-custom td:nth-child(1){
-    position: sticky;
-    left: 0;
-    background-color: #003b1a;
-} */
+    .background-imagewelcome{
+        background-image: url('/public/media/pratoverde.jpg');
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
 
