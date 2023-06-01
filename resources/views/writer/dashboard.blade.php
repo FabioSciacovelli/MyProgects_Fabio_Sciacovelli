@@ -1,6 +1,7 @@
 <x-layout>
+    
     <div class="bgLavoraconnoi">
-        <div class="container mt-5">
+        <div class="container mt-5 min-vh-100">
             <div class="row justify-content-center align-items-center mt-5">
                 <div class="col-12 mt-5">
 

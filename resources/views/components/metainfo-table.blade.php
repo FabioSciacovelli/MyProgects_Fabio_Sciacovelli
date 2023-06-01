@@ -3,6 +3,7 @@
         <div class="col-12">
             <table class="table btnMobile table-striped table-hover border bg-dark opacity">
                 <thead class="table-success">
+                    <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nome tag</th>
                     <th scope="col">Q.tà articoli collegati</th>
@@ -11,16 +12,6 @@
                   </tr>
                 </thead>
                 <tbody>
-            
-                    {{-- @if ($errors->any())
-                        <div class="alert alert-danger">
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                <li> {{ $error }} </li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    @endif  --}}
             
                     @foreach ($metaInfos as $metaInfo)
                     <tr>
