@@ -4,8 +4,8 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-8">
            
-                    <form class="bg-light p-5 border rounded-1 opacity mt-5 mb-5" action="" method="" enctype="multipart/form-data">
-                        
+                    <form class="bg-light p-5 border rounded-1 opacity mt-5 mb-5" action="{{route('article.update',compact('article'))}}" method="POST" enctype="multipart/form-data">
+                        @method('put')
                         <h1 class="text-blackcustom text-center titlecreate mb-5">
                             MODIFICA UN ARTICOLO
                         </h1>
