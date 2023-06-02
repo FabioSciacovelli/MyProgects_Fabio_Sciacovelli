@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="table-responsive">
-      <table class="bg-dark opacity table btnMobile table-striped table-custom border text-white">
+      <table class="bg-dark opacity table btnMobile table-striped table-custom table border text-white">
         <thead class="table-success">
           <tr>
             <th  scope="col">#</th>

@@ -27,13 +27,15 @@
                         </td>
                         <td>{{$article->created_at->format('d/m/Y')}} </td>
                         <td>
-                            <a href="{{route('article.show', compact('article'))}}" class="btn back rounded-0 text-white btnMobile">Leggi</a>
-                            <a href="{{route('article.edit', compact('article'))}}" class="btn back rounded-0 text-white btnMobile">Modifica</a>
+                          <div class="d-flex">
+                            <a href="{{route('article.show', compact('article'))}}" class="btn back rounded-0 text-white btnMobile mx-1 mx-md-2">Leggi</a>
+                            <a href="{{route('article.edit', compact('article'))}}" class="btn back rounded-0 text-white btnMobile mx-1 mx-md-2">Modifica</a>
                             <form action="{{route('article.destroy', compact('article'))}}" method="POST" class="d-inline">
                                 @csrf
                                 @method('delete')
-                                <button type="submit" class="btn btn-danger rounded-0 btnMobile">Elimina</button>
+                                <button type="submit" class="btn btn-danger rounded-0 btnMobile mx-1 mx-md-2">Elimina</button>
                             </form>
+                          </div>
                         </td>
                 </tr>
                 @endforeach

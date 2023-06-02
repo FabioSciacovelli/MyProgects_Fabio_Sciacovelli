@@ -42,7 +42,7 @@
                                 @csrf
                                 @method('put')
                                 <div class="d-flex">
-                                    <input type="text" name="name" placeholder="Nuova categoria" class="btnMobile form-control w-50 d-inline rounded-0">
+                                    <input type="text" name="name" placeholder="Nuova categoria" class="inputMobile2 form-control w-50 d-inline rounded-0">
                                     <button type="submit" class="btn btnMobile back rounded-0 text-white mx-5 mx-md-2">Aggiorna</button>
                                 </div>
                             </form>

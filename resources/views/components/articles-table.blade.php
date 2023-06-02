@@ -18,7 +18,7 @@
             <td class="text-white">
 
                 @if(is_null($article->is_accepted))
-                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn back rounded-0 ">Leggi</a>
+                <a type="submit" href="{{route('article.show', compact('article'))}}" class="btn btnMobile back rounded-0 ">Leggi</a>
                 @else
                 <a type="submit" href="{{route('revisor.undoArticle', compact('article'))}}" class="btn btnMobile back rounded-0">Riporta in revisione</a>
                 @endif
