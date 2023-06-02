@@ -70,6 +70,69 @@
       </div>
     </div>
 
+
+
+
+    <hr>
+
+    <div class="container sezione_icone mt-5 ml-0 mr-0 mb-0 d-flex justify-content-between">
+      <div class="row">
+  
+        <div class="col-6 col-md-2">           
+          <div class="m-5">
+            <i class="fa-solid fa-earth-europe fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Ecosostenibilità</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-6 col-md-2">
+          <div class="m-5">
+            <i class="fa-solid fa-lightbulb fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Energia</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-6 col-md-2">
+          <div class="m-5">
+            <i class="fa-solid fa-smog fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Inquinamento ambientale</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-6 col-md-2">
+          <div class="m-5">
+            <i class="fa-solid fa-tree fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Eco consigli</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-6 col-md-2">
+          <div class="m-5">
+            <i class="fa-solid fa-solar-panel fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Risparmio energetico</p>
+          </div>
+        </div>
+  
+  
+        <div class="col-6 col-md-2">
+          <div class="m-5">
+            <i class="fa-solid fa-recycle fa-3x d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center">Economia circolare</p>
+          </div>
+        </div>
+  
+  
+      </div>
+    </div>
+  
+    <hr>
+
+
+
     
     <div class="container my-5">
       <div class="row justify-content-center">
@@ -84,22 +147,22 @@
                     <div class="carousel-item active">
                       <img src="/media/spiaggiaplastica.jpg" class="d-block w-100" alt="foto di switch">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Inquinamento spiagge</h5>
-                        <p >Le spiagge e il mare sono casa nostra</p>
+                        <h2>Inquinamento marino</h2>
+                        <p class="fs-5">Gli effetti dell'inquinamento marino sono molteplici, a partire dalla riduzione della fauna ittica e la perdita di biodiversità, fino all'estinzione di intere specie marine e la cancellazione di una serie di gruppi della catena alimentare.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="/media/vestitiusati1.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Inquinamento atmosferico</h5>
-                        <p>Migliaia di fabbriche inquinano l'aria che respiriamo tutti i giorni</p>
+                        <h2>L'inquinamento dell'industria della moda</h2>
+                        <p class="fs-5">Secondo un rapporto delle Nazioni Unite, l'industria della moda produce dall'8% al 10% di tutte le emissioni globali di CO2, ovvero tra i 4 e 5 miliardi di tonnellate di anidride carbonica immesse in atmosfera ogni anno.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="/media/carosello3.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Deforestazione</h5>
-                        <p>Oltre 1 milione di alberi sono stati abbattuti a scopo di lucro</p>
+                        <h2>La deforestazione è un problema?</h2>
+                        <p class="fs-5">Le piante e gli alberi, mediante il processo di fotosintesi clorofilliana, trasformano l'anidride carbonica presente nell'atmosfera in ossigeno. Ne consegue che il disboscamento determina un aumento di CO2 e di conseguenza un acuirsi dell'effetto serra e del riscaldamento globale.</p>
                       </div>
                     </div>
                   </div>
@@ -117,67 +180,8 @@
       </div>
   </div>
 
-  <div class="container sezione_icone mt-5 ml-0 mr-0 mb-0 d-flex justify-content-between">
-    <div class="row">
 
-      <div class="col-6 col-md-1">           
-        <div class="m-5">
-          <i class="fa-solid fa-earth-europe fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Ecosostenibilità</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
 
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-lightbulb fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Energia</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-smog fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Inquinamento ambientale</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-tree fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Eco consigli</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-question fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Curiosità</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-solar-panel fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Risparmio energetico</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-      <div class="col-6 col-md-1">
-        <div class="m-5">
-          <i class="fa-solid fa-recycle fa-2x d-flex justify-content-center"></i>
-          <p class="text-align mt-3 d-flex justify-content-center">Economia circolare</p>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-
-    </div>
-  </div>
  
 </x-layout>
                 
