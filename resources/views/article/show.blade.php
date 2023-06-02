@@ -1,11 +1,16 @@
 <x-layout>
     <x-header>
-        <span class="otherstitle">{{$article->title}}</span>
+        <span class="text-light">Healthy</span>Earth
     </x-header>
-   
-
+    
+    
     <div class="container mt-4">
         <div class="row justify-content-around">
+                
+                <h2 class="subtitle"><span class="oran uppercase display-5">{{$article->title}}</span></h2>
+                <div class="line"></div>
+                
+            
             
             <div class="col-12 col-md-6 mt-4">
                 <img src="{{Storage::url($article->image)}}" class="img-fluid my-3" alt="">              
@@ -13,7 +18,7 @@
 
             <div class="col-12 col-md-6 mt-4">
                 <div class="text-center">
-                    <h2>{{$article->subtitle}}</h2>
+                    <h2 class="fs-4">{{$article->subtitle}}</h2>
                     <div class="my-3 text-muted fst-italic">
                       <p>Redatto da {{$article->user->name}} il {{$article->created_at->format('d/m/Y')}} </p>
                       <hr>

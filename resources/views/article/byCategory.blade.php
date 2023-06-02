@@ -1,10 +1,15 @@
 <x-layout>
     <x-header>
-        <span class="otherstitle uppercase">{{$category->name}}</span>
+        <span class="text-light">Healthy</span>Earth
     </x-header>
-
+    
     <div class="container my-5 min-vh-100">
         <div class="row justify-content-around">
+            
+            <i>
+                <h2 class="subtitle"><span class="oran uppercase">{{$category->name}}</span></h2>
+                <div class="line"></div>
+                </i>
 
             @foreach($articles as $article)
 

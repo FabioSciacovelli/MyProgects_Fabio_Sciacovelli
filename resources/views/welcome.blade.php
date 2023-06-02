@@ -15,7 +15,12 @@
   
   <div class="container my-4">
     <div class="row justify-content-around">
-      
+      <i>
+
+        <h2 class="subtitle fs-4">GLI ULTIMI ARTICOLI</h2>
+        <div class="line"></div>
+        
+      </i>
       @foreach($articles as $article)
       
       <div class="col-12 col-md-6 mt-3">

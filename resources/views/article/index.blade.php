@@ -1,10 +1,16 @@
 <x-layout>
     <x-header>
-        <span class="otherstitle">TUTTI GLI ARTICOLI</span>
+        <span class="text-light">Healthy</span>Earth
     </x-header>
 
-            <div class="container my-5 min-vh-100">
-                <div class="row justify-content-around">
+    
+    <div class="container my-5 min-vh-100">
+        <div class="row justify-content-around">
+            
+                <i>
+                <h2 class="subtitle">ARTICOLI:</h2>
+                <div class="line"></div>
+                </i>
         
                     @foreach($articles as $article)
 
