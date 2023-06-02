@@ -8,8 +8,7 @@
         <div class="row justify-content-around">
             
             <div class="col-12 col-md-6 mt-4">
-                <img src="{{Storage::url($article->image)}}" class="img-fluid my-3" alt="">
-                
+                <img src="{{Storage::url($article->image)}}" class="img-fluid my-3" alt="">              
             </div>
 
             <div class="col-12 col-md-6 mt-4">
@@ -21,7 +20,7 @@
                     </div> 
                 
                   
-                  <p>{{$article->body}}</p>
+                  <p class="giusto">{{$article->body}}</p>
                   
                 </div>
             </div>

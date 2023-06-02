@@ -72,13 +72,10 @@
 
 
 
-
-    <hr>
-
     <div class="container sezione_icone mt-5 ml-0 mr-0 mb-0 d-flex justify-content-between">
       <div class="row">
   
-        <div class="col-6 col-md-2 d-flex">           
+        <div class="col-6 col-md-2">           
           <div class="m-5 text-center">
             <i class="fa-solid fa-earth-europe fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Ecosostenibilità</p>
@@ -123,15 +120,11 @@
             <i class="fa-solid fa-recycle fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Economia circolare</p>
           </div>
-        </div>
-  
+        </div>  
   
       </div>
     </div>
   
-    <hr>
-
-
 
     
     <div class="container my-5">
