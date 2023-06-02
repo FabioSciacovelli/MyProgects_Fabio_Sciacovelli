@@ -26,12 +26,14 @@ class PublicController extends Controller
     public function careersSubmit(Request $request){
         $request->validate([
             'role'=> 'required',
+            'name'=> 'required',
             'email'=> 'required|email',
             'message'=> 'required',
         ]);
      
     $user = Auth::user();
     $role = $request->role;
+    $name = $request->name;
     $email = $request->email;
     $message = $request->message;
 

@@ -44,6 +44,12 @@
                                         </select>
 
                                     <div class="mb-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input name="name" type="name" class="form-control" id="name" value="{{old('name') ?? Auth::user()->name}}">
+                                    </div>
+                                    
+
+                                    <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
                                         <input name="email" type="email" class="form-control" id="email" value="{{old('email') ?? Auth::user()->email}}">
                                     </div>

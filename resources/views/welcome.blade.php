@@ -78,8 +78,8 @@
     <div class="container sezione_icone mt-5 ml-0 mr-0 mb-0 d-flex justify-content-between">
       <div class="row">
   
-        <div class="col-6 col-md-2">           
-          <div class="m-5">
+        <div class="col-6 col-md-2 d-flex">           
+          <div class="m-5 text-center">
             <i class="fa-solid fa-earth-europe fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Ecosostenibilità</p>
           </div>
@@ -87,7 +87,7 @@
   
   
         <div class="col-6 col-md-2">
-          <div class="m-5">
+          <div class="m-5 text-center">
             <i class="fa-solid fa-lightbulb fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Energia</p>
           </div>
@@ -95,7 +95,7 @@
   
   
         <div class="col-6 col-md-2">
-          <div class="m-5">
+          <div class="m-5 text-center">
             <i class="fa-solid fa-smog fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Inquinamento ambientale</p>
           </div>
@@ -103,23 +103,23 @@
   
   
         <div class="col-6 col-md-2">
-          <div class="m-5">
+          <div class="m-5 text-center">
             <i class="fa-solid fa-tree fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Eco consigli</p>
           </div>
         </div>
   
   
-        <div class="col-6 col-md-2">
-          <div class="m-5">
+        <div class="col-6 col-md-2 d-flex justify-content-center">
+          <div class="m-5 text-center">
             <i class="fa-solid fa-solar-panel fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Risparmio energetico</p>
           </div>
         </div>
   
   
-        <div class="col-6 col-md-2">
-          <div class="m-5">
+        <div class="col-6 col-md-2 d-flex justify-content-center">
+          <div class="m-5 text-center">
             <i class="fa-solid fa-recycle fa-3x d-flex justify-content-center"></i>
             <p class="text-align mt-3 d-flex justify-content-center">Economia circolare</p>
           </div>
