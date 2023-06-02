@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="table-responsive">
-            <table class="table-custom btnMobile table-striped table-hover border bg-dark opacity">
+            <table class="table-custom btnMobile table table-striped table-hover border bg-dark opacity">
                 <thead class="table-success">
                     <tr>
                     <th scope="col">#</th>
@@ -24,7 +24,7 @@
                                 @csrf
                                 @method('put')
                                 <div class="d-flex" >
-                                    <input type="text" name="name" placeholder="New tag" class="btnMobile form-control w-50 d-inline rounded-0">
+                                    <input type="text" name="name" placeholder="New tag" class="inputMobile form-control w-50 d-inline rounded-0">
                                     <button type="submit" class="btn btnMobile back rounded-0 text-white mx-5 mx-md-2">Aggiorna</button>
                                 </div>
                             </form>

@@ -186,12 +186,18 @@ h1{
 
     .btnMobile{
         font-size: 11px;
-        width:200px;
+        width:80px;
 
+    }
+
+    .inputMobile{
+        font-size: 11px;
+        width:200px;
     }
     
     .titletable{
         font-size: 20px;
+        
     }
 
     .table-custom th:first-child,td:first-child{
