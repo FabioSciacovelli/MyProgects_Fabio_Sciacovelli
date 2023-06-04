@@ -37,7 +37,7 @@
               @if($article->category)
               <a href="{{route('article.byCategory', ['category' => $article->category->id])}}" class="text-light">{{$article->category->name}}</a>
               @else
-              <p class="small text-muted fst-italic text-capitalize">
+              <p class="small  fst-italic text-capitalize text-white">
                 Non categorizzato
               </p>
               @endif
