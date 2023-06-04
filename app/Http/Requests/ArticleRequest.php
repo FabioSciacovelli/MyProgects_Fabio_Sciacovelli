@@ -38,7 +38,7 @@ class ArticleRequest extends FormRequest
             'title.required' => 'Devi inserire il titolo dell\' articolo',
             'title.min' => 'Il titolo deve avere minimo 4 caratteri',
             'title.max' =>'Il titolo deve avere massimmo 100 caratteri',
-            'subquired' => 'Devi inserire un sottotitolo',
+            'subtitle.required' => 'Devi inserire un sottotitolo',
             'subtitle.min' => 'Il sottotitolo deve avere almeno 4 caratteri',
             'subtitle.max' => 'Il sottotitolo deve avere massimo 150 caratteri',
             'body.required' => 'Devi inserire il corpo dell\' articolo',

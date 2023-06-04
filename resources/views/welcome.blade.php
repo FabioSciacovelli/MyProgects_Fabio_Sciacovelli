@@ -15,13 +15,17 @@
   
   <div class="container my-4">
     <div class="row justify-content-around">
+
       <i>
 
         <h2 class="subtitle fs-4">GLI ULTIMI ARTICOLI</h2>
         <div class="line"></div>
         
       </i>
+     
       @foreach($articles as $article)
+
+      
       
       <div class="col-12 col-md-6 mt-3">
         <div class="caption">
@@ -82,48 +86,50 @@
   
         <div class="col-6 col-md-2">           
           <div class="m-5 text-center">
-            <i class="fa-solid fa-earth-europe fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Ecosostenibilità</p>
+            
+            <i class="fa-solid fa-earth-europe fa-3x  text-accent d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex justify-content-center text-accent">Ecosostenibilità</p>
+          
           </div>
         </div>
   
   
         <div class="col-6 col-md-2">
           <div class="m-5 text-center">
-            <i class="fa-solid fa-lightbulb fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Energia</p>
+            <i class="fa-solid fa-lightbulb fa-3x  text-accent d-flex justify-content-center"></i>
+            <p class="text-align mt-3 text-accent   d-flex justify-content-center">Energia</p>
           </div>
         </div>
   
   
         <div class="col-6 col-md-2">
           <div class="m-5 text-center">
-            <i class="fa-solid fa-smog fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Inquinamento ambientale</p>
+            <i class="fa-solid fa-smog fa-3x text-accent  d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex text-accent  justify-content-center">Inquinamento ambientale</p>
           </div>
         </div>
   
   
         <div class="col-6 col-md-2">
           <div class="m-5 text-center">
-            <i class="fa-solid fa-tree fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Eco consigli</p>
+            <i class="fa-solid fa-tree fa-3x text-accent  d-flex justify-content-center"></i>
+            <p class="text-align mt-3 text-accent  d-flex justify-content-center">Eco consigli</p>
           </div>
         </div>
   
   
         <div class="col-6 col-md-2 d-flex justify-content-center">
           <div class="m-5 text-center">
-            <i class="fa-solid fa-solar-panel fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Risparmio energetico</p>
+            <i class="fa-solid fa-solar-panel fa-3x text-accent d-flex justify-content-center"></i>
+            <p class="text-align mt-3 d-flex text-accent  justify-content-center">Risparmio energetico</p>
           </div>
         </div>
   
   
         <div class="col-6 col-md-2 d-flex justify-content-center">
           <div class="m-5 text-center">
-            <i class="fa-solid fa-recycle fa-3x d-flex justify-content-center"></i>
-            <p class="text-align mt-3 d-flex justify-content-center">Economia circolare</p>
+            <i class="fa-solid fa-recycle fa-3x text-accent d-flex justify-content-center"></i>
+            <p class="text-align mt-3 text-accent  d-flex justify-content-center">Economia circolare</p>
           </div>
         </div>  
   
@@ -142,27 +148,29 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                   </div>
                   <div class="carousel-inner">
+
                     <div class="carousel-item active">
+                      <img src="/media/carosello3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h2 class="background-blackcustom">La deforestazione è un problema?</h2>
+                        <p class="fs-5 background-blackcustom">Le piante e gli alberi, mediante il processo di fotosintesi clorofilliana, trasformano l'anidride carbonica presente nell'atmosfera in ossigeno. Ne consegue che il disboscamento determina un aumento di CO2 e di conseguenza un acuirsi dell'effetto serra e del riscaldamento globale.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item ">
                       <img src="/media/spiaggiaplastica.jpg" class="d-block w-100" alt="foto di switch">
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>Inquinamento marino</h2>
-                        <p class="fs-5">Gli effetti dell'inquinamento marino sono molteplici, a partire dalla riduzione della fauna ittica e la perdita di biodiversità, fino all'estinzione di intere specie marine e la cancellazione di una serie di gruppi della catena alimentare.</p>
+                        <h2 class="background-blackcustom">Inquinamento marino</h2>
+                        <p class="fs-5 background-blackcustom">Gli effetti dell'inquinamento marino sono molteplici, a partire dalla riduzione della fauna ittica e la perdita di biodiversità, fino all'estinzione di intere specie marine e la cancellazione di una serie di gruppi della catena alimentare.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="/media/vestitiusati1.jpg" class="d-block w-100" alt="...">
                       <div class="carousel-caption d-none d-md-block">
-                        <h2>L'inquinamento dell'industria della moda</h2>
-                        <p class="fs-5">Secondo un rapporto delle Nazioni Unite, l'industria della moda produce dall'8% al 10% di tutte le emissioni globali di CO2, ovvero tra i 4 e 5 miliardi di tonnellate di anidride carbonica immesse in atmosfera ogni anno.</p>
+                        <h2 class="background-blackcustom">L'inquinamento dell'industria della moda</h2>
+                        <p class="fs-5 background-blackcustom">Secondo un rapporto delle Nazioni Unite, l'industria della moda produce dall'8% al 10% di tutte le emissioni globali di CO2, ovvero tra i 4 e 5 miliardi di tonnellate di anidride carbonica immesse in atmosfera ogni anno.</p>
                       </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="/media/carosello3.jpg" class="d-block w-100" alt="...">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h2>La deforestazione è un problema?</h2>
-                        <p class="fs-5">Le piante e gli alberi, mediante il processo di fotosintesi clorofilliana, trasformano l'anidride carbonica presente nell'atmosfera in ossigeno. Ne consegue che il disboscamento determina un aumento di CO2 e di conseguenza un acuirsi dell'effetto serra e del riscaldamento globale.</p>
-                      </div>
-                    </div>
+                    
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>

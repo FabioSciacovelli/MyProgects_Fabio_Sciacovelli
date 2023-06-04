@@ -15,6 +15,7 @@ class PublicController extends Controller
         return view('welcome', compact('articles'));
     }
 
+
     public function __construct(){
         $this->middleware('auth')->except('homepage');
     }

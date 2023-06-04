@@ -4,15 +4,17 @@
     </x-header>
 
     
-    <div class="container my-5 min-vh-100">
+    <div class="container my-4 min-vh-100">
         <div class="row justify-content-around">
             
-                <i>
-                <h2 class="subtitle">ARTICOLI:</h2>
-                <div class="line"></div>
-                </i>
+                
         
                     @foreach($articles as $article)
+
+                        {{-- <i>
+                            <h2 class="subtitle">ARTICOLI:</h2>
+                            <div class="line"></div>
+                        </i> --}}
 
                         <div class="col-12 col-md-6 mt-4">
                             <div class="caption">

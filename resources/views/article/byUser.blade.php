@@ -1,10 +1,23 @@
 <x-layout>
+
     <x-header>
-        <span class="otherstitle">{{$user->name}}</span>
-    </x-header>
+
+        <span class="text-light">Healthy</span>Earth
+        
+      </x-header>
+    
+        
+    
 
     <div class="container my-5">
         <div class="row justify-content-around">
+
+            <i>
+
+                <h2 class="subtitle fs-4">TUTTI GLI ARTICOLI DI:    <span class="subtitle uppercase oran fs-4">  {{$user->name}}</span> </h2>
+                <div class="line"></div>
+                
+              </i>
       
             @foreach($articles as $article)
       

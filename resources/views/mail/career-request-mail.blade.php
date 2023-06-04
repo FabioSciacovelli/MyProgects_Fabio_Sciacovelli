@@ -23,7 +23,11 @@
         <div class="row text-center">
             <div class="col-12 my-5">
                 <div class="text-center my-5">
-                    <i class="fa-brands fa-envira icona" style="color: #027032"></i><span><h1><span style="color: rgb(162, 158, 158)">Healthy</span><span style="color: #027032">Earth</span></h1></span>
+                    <h1>
+                        <span><i class="fa-brands fa-envira icona" style="color: #027032"></i></span>
+                        <span style="color: rgb(162, 158, 158)">Healthy</span>
+                        <span style="color: #027032">Earth</span></span>
+                    </h1>
                 </div>
                 <h3 class="mt-5">Ciao {{Auth::user()->name}},</h3>
                 <h3>abbiamo ricevuto il tuo messaggio:</h3>

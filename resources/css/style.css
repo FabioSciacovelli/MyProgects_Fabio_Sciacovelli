@@ -64,6 +64,12 @@ h1{
     font-size: 100px;
 }
 
+.titleFooter{
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(180,103,51);
+    font-size: 40px;
+}
+
 .otherstitle{
     font-family: 'Heebo', sans-serif;
     color: white;
@@ -167,6 +173,12 @@ h1{
     border-color: rgb(180,103,51);
 }
 
+.oran2{
+    
+    color: rgb(180,103,51);
+    border-color: rgb(180,103,51);
+}
+
  .oran:hover {
     background-color: rgb(180,103,51)!important;
     color: #f1f6f4 !important;
@@ -237,4 +249,13 @@ h1{
     background-size: cover;
     }
 }
+ 
+@media only screen and (max-width:1200) {
+    h1 {
+      font-size: 70px;
+    }
+
+    
+}
+
 
