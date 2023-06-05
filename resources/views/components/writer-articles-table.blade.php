@@ -18,14 +18,14 @@
                 <tr>
                     <th class="text-white" scope="row">{{$article->id}}</th>
                     <td class="text-white">{{$article->title}}</td>
-                    <td class="text-white">{{$article->subtitlel}}</td>
+                    <td class="text-white">{{$article->subtitle}}</td>
                     <td class="text-white">{{$article->category->name ?? 'Non categorizzato'}}</td>
-                    <td>
+                    <td class="text-white">
                             @foreach($article->tags as $tag)
                                 {{$tag->name}},
                             @endforeach
                         </td>
-                        <td>{{$article->created_at->format('d/m/Y')}} </td>
+                        <td class="text-white">{{$article->created_at->format('d/m/Y')}} </td>
                         <td>
                           <div class="d-flex">
                             <a href="{{route('article.show', compact('article'))}}" class="btn back rounded-0 text-white btnMobile mx-1 mx-md-2">Leggi</a>
